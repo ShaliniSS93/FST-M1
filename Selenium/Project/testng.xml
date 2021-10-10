@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite parallel="false" name="Suite">
+  <test name="Test">
+        <parameter name="username" value="orange"/>
+        <parameter name="password" value="orangepassword123"/>
+        <parameter name="fname" value="test"/>
+        <parameter name="lname" value="today"/>
+        <parameter name="adminfname" value="John"/>
+        <parameter name="adminlname" value="Doe"/>
+  		<classes>
+			<class name="ProjectActivitiesHRM.GeturlOfHeaderImage"/>
+			<class name="ProjectActivitiesHRM.Verifywebsitetitle"/>
+			<class name="ProjectActivitiesHRM.Loggingintosite"/>
+			<class name="ProjectActivitiesHRM.AddNewEmployee"/>
+			<class name="ProjectActivitiesHRM.EditUserInfo"/>
+			<class name="ProjectActivitiesHRM.VerifyDirectoryMenuItemVisible"/>
+			<class name="ProjectActivitiesHRM.Addingqualifications"/>
+			<class name="ProjectActivitiesHRM.ApplyForLeave"/>
+			<class name="ProjectActivitiesHRM.RetrieveEmergencyContacts"/>
+		</classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
