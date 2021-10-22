@@ -1,0 +1,11 @@
+testing GIT
+
+cd FST-M1/
+
+git add .
+
+git commit -m "added new"
+
+git push origin main
+
+/* main was branch name*/
